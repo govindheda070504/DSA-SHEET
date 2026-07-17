@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0075-sort-colors](https://github.com/govindheda070504/DSA-SHEET/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/govindheda070504/DSA-SHEET/tree/master/0088-merge-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/govindheda070504/DSA-SHEET/tree/master/0189-rotate-array) |
 ## Sorting
 |  |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/govindheda070504/DSA-SHEET/tree/master/0021-merge-two-sorted-lists) |
+| [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/govindheda070504/DSA-SHEET/tree/master/0203-remove-linked-list-elements) |
 ## Recursion
 |  |
@@ -43,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/govindheda070504/DSA-SHEET/tree/master/0189-rotate-array) |
+## Hash Table
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
