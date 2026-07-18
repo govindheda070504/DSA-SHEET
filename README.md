@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/govindheda070504/DSA-SHEET/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/govindheda070504/DSA-SHEET/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0234-palindrome-linked-list) |
 ## Sorting
 |  |
 | ------- |
@@ -28,11 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/govindheda070504/DSA-SHEET/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/govindheda070504/DSA-SHEET/tree/master/0203-remove-linked-list-elements) |
+| [0234-palindrome-linked-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/govindheda070504/DSA-SHEET/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/govindheda070504/DSA-SHEET/tree/master/0203-remove-linked-list-elements) |
+| [0234-palindrome-linked-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0234-palindrome-linked-list) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -49,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/govindheda070504/DSA-SHEET/tree/master/0141-linked-list-cycle) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/govindheda070504/DSA-SHEET/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
