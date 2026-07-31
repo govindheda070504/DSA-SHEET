@@ -15,38 +15,43 @@
  */
 class Solution {
 
-    // Returns the height of the tree
+    // Stores the maximum diameter global variable 
+    int diameter = 0;
+
+    // Returns the height of the subtree rooted at 'root'
     public int height(TreeNode root) {
+
+        // Base case: empty subtree has height 0
         if (root == null) {
             return 0;
         }
 
+        // Recursively calculate height of left subtree
         int lheight = height(root.left);
+
+        // Recursively calculate height of right subtree
         int rheight = height(root.right);
 
-        // Height = 1 + maximum of left and right subtree heights
+        // Diameter passing through the current node
+        // = left subtree height + right subtree height
+        // (This gives the number of edges in the longest path
+        // passing through the current node.)
+        diameter = Math.max(diameter, lheight + rheight);
+
+        // Return the height of the current node
+        // Height = 1 (current node) + maximum of left and right subtree heights
         return Math.max(lheight, rheight) + 1;
     }
 
     public int diameterOfBinaryTree(TreeNode root) {
-        // Empty tree has diameter 0
-        if (root == null) {
-            return 0;
-        }
 
-        // Diameter present entirely in left subtree
-        int ldia = diameterOfBinaryTree(root.left);
+        // Perform a single DFS traversal.
+        // While computing heights, the helper function also updates
+        // the maximum diameter found.
+        height(root);
 
-        // Diameter present entirely in right subtree
-        int rdia = diameterOfBinaryTree(root.right);
-
-        // Diameter passing through current node
-        int currdia = height(root.left) + height(root.right);
-
-        // Return the maximum of the three cases
-        return Math.max(currdia, Math.max(ldia, rdia));
+        // Return the maximum diameter (in edges)
+        return diameter;
     }
 }
-
-
-// not optimal uses o(n^2) complexity
+    // optimal solution O(n) time complexity
